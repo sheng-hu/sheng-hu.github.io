@@ -50,6 +50,15 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        /* CSS to change the font size of blockquote text */
+        blockquote {
+            font-size: 13px; /* Change this value to adjust the font size */
+        }
+       ul {
+          list-style-type: square; /* Change this value to choose a different bullet style */
+        }
+    </style>
   </head>
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -122,7 +131,13 @@
 
         <!--<div class="row">-->
         <div class="col-md-8 col-md-offset-2">
-          <div class="about-text">
+          <font class="about-text">
+            <p style="margin-top: 10px; margin-bottom: 10px">
+              <font size="4px"><b>Sheng Hu</b></font>
+            </p>
+
+            <div>
+            <div style="margin-top: 10px;">
             <img
               src="img/hu_portrait.png"
               class="img-responsive"
@@ -130,39 +145,49 @@
                 border-radius: 5%;
                 width: 250px;
                 float: right;
+                margin-left: 20px;
                 /*height: 50%;*/
-                display: inline-block;
+                /* display: inline-block; */
               "
             />
-            <p>
-              <strong>
-                <font size="4px">Sheng Hu</font>
-              </strong>
-            </p>
-            <ul style='padding: 30px;'>
-              <li>
-                I'm a specially appointed assistant professor at
+            </div>
+            </div>
+
+            <ul>
+              <li>I'm a specially appointed assistant professor at
                 <a href="https://www.icredd.hokudai.ac.jp/"> ICReDD</a> in
-                Hokkaido University. I got my Ph.D at the
+                Hokkaido University. <br/> </li>
+              <br/>
+                Ph.D (2019): Retrieval, Generation and Ranking for Large Text Data Using Index and Algorithms
+                <blockquote>
                 <a href="https://www.db.ss.is.nagoya-u.ac.jp/en/">Database Lab</a>
-                of Nagoya University in 2019,
+                of Nagoya University,
                 under the supervision of Prof. <a href="https://sites.google.com/site/chuanxiao1983/">Chuan Xiao</a> and sub-supervision of
-                Prof. <a href="https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/">Yoshiharu Ishikawa</a>. After that, I worked as a postdoc at
-                the <a href="https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start">Database Lab</a> of Kyoto University in 2020, with Prof.
+                Prof. <a href="https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/">Yoshiharu Ishikawa</a>.
+                </blockquote>
+
+                Postdoc (2019-2020): Retrieval and Generative Models for Spatial Data Mining
+                <blockquote>
+                <a href="https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start">Database Lab</a> of Kyoto University, with Prof.
                 <a href="https://www.soc.is.kit.ac.jp/~qiang/">Qiang Ma</a> and Prof. <a href="https://researchmap.jp/myoshikawa">Masatoshi Yoshikawa</a>.
-              </li>
+                </blockquote>
 
               <li>Email: <img src='img/mymail.png' style='width: 230px; height: auto;'></li>
             </ul>
-            <div class="space"></div>
-            <p><strong>RESEARCH INTERESTS</strong></p>
+
+
+            <!-- <div class="space"></div> -->
+            <!-- <p><strong></strong></p> -->
+            <p style="margin-bottom: 10px; margin-top: 20px;">
+              <font size="4px">
+              <strong>Research Interests</strong></p>
+              </font>
             <ul>
-              <li>Deep Learning on Graphs</li>
-              <li>Query Autocompletion</li>
-              <li>Query Processing and Indexing</li>
-              <li>Text and Multimedia Retrieval</li>
-              <li>Location-based Service</li>
-              <li>Spatial Crowdsourcing</li>
+              <li>Deep Learning and Reinforcement Learning on Graphs</li>
+              <li>Bayesian Optimization</li>
+              <li>Statistical Learning for Scientific Data</li>
+              <li>Recommendation Systems and Database Algorithms</li>
+              <li>Retrieval-Augmented Generation (RAG)</li>
             </ul>
           </div>
         </div>
@@ -430,7 +455,7 @@
                 <div class="hover-bg">
                   <a href="moments/cpo2008.jpg" title="cpo2008">
                     <div class="hover-text">
-                      <h4>China physics olympiad summer campaign at NJU, 2008.</h4>
+                      <h4>China physics olympiad summer camp at NJU, 2008.</h4>
                       <div class="clearfix"></div>
                       <i class="fa fa-search"></i>
                     </div>
@@ -480,7 +505,7 @@
           <div class="col-md-6">
             <font color="black">
               <i class="fa fa-envelope-o fa-2x"></i>
-              <p>hu.sheng [at] icredd.hokudai.ac.jp</p>
+              <p><a class="page-scroll" href="#about">To Top</a></p>
             </font>
           </div>
         </div>
